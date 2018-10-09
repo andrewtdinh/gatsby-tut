@@ -366,6 +366,26 @@
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /about/": {
+      "jsonName": "about-f34",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/andrewd/Personal/gatsby-tut/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "abaec7125648f1e515645d4e39b4adba",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -378,7 +398,8 @@
   },
   "jsonDataPaths": {
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/andrewd/Personal/gatsby-tut/.cache/dev-404-page.js": {
@@ -388,6 +409,10 @@
     "/Users/andrewd/Personal/gatsby-tut/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/index.js"
+    },
+    "/Users/andrewd/Personal/gatsby-tut/src/pages/about.js": {
+      "query": "",
+      "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/about.js"
     }
   },
   "staticQueryComponents": {}
