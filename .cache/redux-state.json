@@ -314,6 +314,14 @@
           {
             "name": "typography",
             "version": "^0.16.17"
+          },
+          {
+            "name": "typography-theme-bootstrap",
+            "version": "^0.16.7"
+          },
+          {
+            "name": "typography-theme-lawton",
+            "version": "^0.15.10"
           }
         ],
         "devDependencies": [],
@@ -430,12 +438,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-23T13:43:27.842Z",
+      "buildTime": "2018-10-23T13:52:29.703Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "087030cc9279bf14453fa69469354553",
+        "contentDigest": "06e265add97bb8d7939458adde6d60bb",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -523,7 +531,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "fedca84b87dbf8c05956ba109fa4c468"
+    "PLUGINS_HASH": "eed679a5ac2e82aac8206dc76b743332"
   },
   "componentDataDependencies": {
     "nodes": {},
