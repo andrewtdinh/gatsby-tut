@@ -196,11 +196,88 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "/Users/andrewd/Personal/gatsby-tut/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "2.2.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/andrewd/Personal/gatsby-tut/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "2.2.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1 || ^1.0.0-alpha.0"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0 || ^1.0.0-alpha.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bd9a1437c7276e80f01d607a35bd48ba",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/andrewd/Personal/gatsby-tut",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "d41d8cd98f00b204e9800998ecf8427e",
+      "version": "566190f986a7200bd0c2eb7d10d482f4",
       "pluginOptions": {
         "plugins": []
       },
@@ -218,12 +295,24 @@
             "version": "^2.0.0"
           },
           {
+            "name": "gatsby-plugin-typography",
+            "version": "^2.2.0"
+          },
+          {
             "name": "react",
             "version": "^16.5.1"
           },
           {
             "name": "react-dom",
             "version": "^16.5.1"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.13"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.17"
           }
         ],
         "devDependencies": [],
@@ -234,7 +323,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "212f6babf22105b3036ba2e5b201dc63",
+        "contentDigest": "bff48a1f44d39c736d6ab37b047d1940",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -243,7 +332,7 @@
       "resolve": "/Users/andrewd/Personal/gatsby-tut/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.1",
+      "version": "2.0.0",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/andrewd/Personal/gatsby-tut/src/pages",
@@ -258,13 +347,16 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.1",
+        "version": "2.0.0",
         "main": "index.js",
         "keywords": [
           "gatsby",
           "gatsby-plugin"
         ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
         "license": "MIT",
         "dependencies": [
           {
@@ -326,7 +418,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "6d85ea80d34133293e2cc5914daf6842",
+        "contentDigest": "fe5714e15f08befa8cac7abd3e62c471",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -337,33 +429,13 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-09T07:23:21.420Z",
+      "buildTime": "2018-10-23T13:32:45.618Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1199336452105f2249408a913d813f1f",
+        "contentDigest": "038ec8f7b0ed4ed39c28fe81de4e2fbc",
         "type": "Site",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "jsonName": "index",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/andrewd/Personal/gatsby-tut/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "764f7c1e7bd3b68874a78ef3078cd2de",
-        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -406,11 +478,51 @@
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /index_old/": {
+      "jsonName": "index-old-85c",
+      "internalComponentName": "ComponentIndexOld",
+      "path": "/index_old/",
+      "component": "/Users/andrewd/Personal/gatsby-tut/src/pages/index_old.js",
+      "componentChunkName": "component---src-pages-index-old-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/index_old.js",
+      "id": "SitePage /index_old/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9b5e3506c7d01704b614d008002f8791",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "jsonName": "index",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/andrewd/Personal/gatsby-tut/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "764f7c1e7bd3b68874a78ef3078cd2de",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "4c0e2792f53fcc2f2e8736a51b419444"
+    "PLUGINS_HASH": "a736e6e91094c2b69256b8b80010ab96"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -420,16 +532,13 @@
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
-    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E"
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index-old-85c": "87/path---index-old-85-c-eca-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/andrewd/Personal/gatsby-tut/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/andrewd/Personal/gatsby-tut/.cache/dev-404-page.js"
-    },
-    "/Users/andrewd/Personal/gatsby-tut/src/pages/index.js": {
-      "query": "",
-      "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/index.js"
     },
     "/Users/andrewd/Personal/gatsby-tut/src/pages/about.js": {
       "query": "",
@@ -438,6 +547,14 @@
     "/Users/andrewd/Personal/gatsby-tut/src/pages/contact.js": {
       "query": "",
       "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/contact.js"
+    },
+    "/Users/andrewd/Personal/gatsby-tut/src/pages/index_old.js": {
+      "query": "",
+      "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/index_old.js"
+    },
+    "/Users/andrewd/Personal/gatsby-tut/src/pages/index.js": {
+      "query": "",
+      "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/index.js"
     }
   },
   "staticQueryComponents": {}
