@@ -427,14 +427,12 @@
       "siteMetadata": {},
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
       "buildTime": "2018-10-23T13:32:45.618Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "038ec8f7b0ed4ed39c28fe81de4e2fbc",
+        "contentDigest": "58b47a1f84c524d907fe28e19782dac2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
