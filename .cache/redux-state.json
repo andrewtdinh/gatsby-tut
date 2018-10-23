@@ -202,7 +202,8 @@
       "name": "gatsby-plugin-typography",
       "version": "2.2.0",
       "pluginOptions": {
-        "plugins": []
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography.js"
       },
       "nodeAPIs": [
         "onPreBootstrap"
@@ -268,7 +269,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bd9a1437c7276e80f01d607a35bd48ba",
+        "contentDigest": "c8bd7bada8ff09ac4078451f0b7bebf5",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -277,7 +278,7 @@
       "resolve": "/Users/andrewd/Personal/gatsby-tut",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "566190f986a7200bd0c2eb7d10d482f4",
+      "version": "1aa441e4bff5653524a80e480b8513b9",
       "pluginOptions": {
         "plugins": []
       },
@@ -323,7 +324,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "bff48a1f44d39c736d6ab37b047d1940",
+        "contentDigest": "5a4e4bb774c02cccffe8b471d5fd2e48",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -427,12 +428,14 @@
       "siteMetadata": {},
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2018-10-23T13:32:45.618Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-10-23T13:43:27.842Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "58b47a1f84c524d907fe28e19782dac2",
+        "contentDigest": "087030cc9279bf14453fa69469354553",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -520,7 +523,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a736e6e91094c2b69256b8b80010ab96"
+    "PLUGINS_HASH": "fedca84b87dbf8c05956ba109fa4c468"
   },
   "componentDataDependencies": {
     "nodes": {},
