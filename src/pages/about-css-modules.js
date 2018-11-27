@@ -1,10 +1,10 @@
 import React from "react"
-
+import Header from "../components/header"
 import Container from "../components/container"
 
 export default () => (
   <Container>
-    <h1>About CSS Modules</h1>
+    <Header headerText="About CSS Modules"/>
     <p>CSS Modules are cool</p>
   </Container>
 )
