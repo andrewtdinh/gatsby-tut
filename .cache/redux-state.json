@@ -438,12 +438,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-23T13:52:29.703Z",
+      "buildTime": "2018-11-26T17:10:34.317Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "06e265add97bb8d7939458adde6d60bb",
+        "contentDigest": "9150d6b3ad9942653088e8955df98cd1",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
