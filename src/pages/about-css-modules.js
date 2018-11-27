@@ -1,6 +1,7 @@
-import React from "react"
-import Header from "../components/header"
-import Container from "../components/container"
+import React from "react";
+import Header from "../components/header";
+import Container from "../components/container";
+import styles from "./about-css-modules.module.css";
 
 export default () => (
   <Container>
