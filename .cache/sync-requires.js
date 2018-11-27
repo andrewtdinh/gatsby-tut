@@ -7,6 +7,7 @@ exports.components = {
   "component---src-pages-about-js": preferDefault(require("/Users/andrewd/Personal/gatsby-tut/src/pages/about.js")),
   "component---src-pages-contact-js": preferDefault(require("/Users/andrewd/Personal/gatsby-tut/src/pages/contact.js")),
   "component---src-pages-index-old-js": preferDefault(require("/Users/andrewd/Personal/gatsby-tut/src/pages/index_old.js")),
-  "component---src-pages-index-js": preferDefault(require("/Users/andrewd/Personal/gatsby-tut/src/pages/index.js"))
+  "component---src-pages-index-js": preferDefault(require("/Users/andrewd/Personal/gatsby-tut/src/pages/index.js")),
+  "component---src-pages-about-css-modules-js": preferDefault(require("/Users/andrewd/Personal/gatsby-tut/src/pages/about-css-modules.js"))
 }
 

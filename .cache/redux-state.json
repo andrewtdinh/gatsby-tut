@@ -527,6 +527,26 @@
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /about-css-modules/": {
+      "jsonName": "about-css-modules-c4c",
+      "internalComponentName": "ComponentAboutCssModules",
+      "path": "/about-css-modules/",
+      "component": "/Users/andrewd/Personal/gatsby-tut/src/pages/about-css-modules.js",
+      "componentChunkName": "component---src-pages-about-css-modules-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/about-css-modules.js",
+      "id": "SitePage /about-css-modules/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f771e46da0bfa75b5b7a246820d2fab6",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -542,7 +562,8 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index-old-85c": "87/path---index-old-85-c-eca-NZuapzHg3X9TaN1iIixfv1W23E"
+    "index-old-85c": "87/path---index-old-85-c-eca-NZuapzHg3X9TaN1iIixfv1W23E",
+    "about-css-modules-c4c": "924/path---about-css-modules-c-4-c-850-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/andrewd/Personal/gatsby-tut/.cache/dev-404-page.js": {
@@ -564,6 +585,10 @@
     "/Users/andrewd/Personal/gatsby-tut/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/index.js"
+    },
+    "/Users/andrewd/Personal/gatsby-tut/src/pages/about-css-modules.js": {
+      "query": "",
+      "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/about-css-modules.js"
     }
   },
   "staticQueryComponents": {}
