@@ -547,6 +547,26 @@
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /index_old2/": {
+      "jsonName": "index-old-2-7fc",
+      "internalComponentName": "ComponentIndexOld2",
+      "path": "/index_old2/",
+      "component": "/Users/andrewd/Personal/gatsby-tut/src/pages/index_old2.js",
+      "componentChunkName": "component---src-pages-index-old-2-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/index_old2.js",
+      "id": "SitePage /index_old2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d72f20a746d5d867d6a92a64ceb8c64e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {
@@ -563,7 +583,8 @@
     "about-f34": "125/path---about-f-34-4c2-NZuapzHg3X9TaN1iIixfv1W23E",
     "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E",
     "index-old-85c": "87/path---index-old-85-c-eca-NZuapzHg3X9TaN1iIixfv1W23E",
-    "about-css-modules-c4c": "924/path---about-css-modules-c-4-c-850-NZuapzHg3X9TaN1iIixfv1W23E"
+    "about-css-modules-c4c": "924/path---about-css-modules-c-4-c-850-NZuapzHg3X9TaN1iIixfv1W23E",
+    "index-old-2-7fc": "71/path---index-old-2-7-fc-c74-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/andrewd/Personal/gatsby-tut/.cache/dev-404-page.js": {
@@ -589,6 +610,10 @@
     "/Users/andrewd/Personal/gatsby-tut/src/pages/about-css-modules.js": {
       "query": "",
       "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/about-css-modules.js"
+    },
+    "/Users/andrewd/Personal/gatsby-tut/src/pages/index_old2.js": {
+      "query": "",
+      "componentPath": "/Users/andrewd/Personal/gatsby-tut/src/pages/index_old2.js"
     }
   },
   "staticQueryComponents": {}
