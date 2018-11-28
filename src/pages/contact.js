@@ -5,7 +5,9 @@ import Header from '../components/header';
 export default () => (
   <div style={{color: `teal`}}>
     <Link to='/'>Home</Link>
-    <Header headerText="Contact" />
-    <p>Send us a message!</p>
+    <Header headerText="I'd love to talk! Email me at the address below" />
+    <p>
+      <a href="mailto:me@example.com">me@example.com</a>
+    </p>
   </div>
 )
